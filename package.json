@@ -1,35 +1,40 @@
 {
-  "name": "hyperbot",
-  "version": "0.0.1",
-  "description": "a discord bot",
-  "main": "index.js",
-  "license": "MIT",
-  "contributors": [
-    "Branden Akana <branden.akana@gmail.com>"
-  ],
-  "scripts": {
-	"preinstall": "npm install coffee-script",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "coffee src/main.coffee"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/branden-akana/hyperbot.git"
-  },
-  "dependencies": {
-	"request": "latest",
-	"express": "latest",
-	"body-parser": "latest",
-	"coffee-script": "1.11.1",
-    "chalk": "^1.1.3",
-    "discord.js": "9.3.0",
-	"ip": "latest"
-  },
-  "engines": {
-	  "node": "6.2.1"
-  },
-  "bugs": {
-    "url": "https://github.com/branden-akana/hyperbot/issues"
-  },
-  "homepage": "https://github.com/branden-akana/hyperbot#readme"
+	"name": "hyperbot",
+	"version": "0.0.1",
+	"description": "a discord bot",
+	"main": "index.js",
+	"license": "MIT",
+
+	"contributors": [
+		"Branden Akana <branden.akana@gmail.com>"
+	],
+
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/index.js"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/branden-akana/hyperbot.git"
+	},
+
+	"dependencies": {
+		"request": "latest",
+		"express": "latest",
+		"body-parser": "latest",
+		"chalk": "^1.1.3",
+		"discord.js": "9.3.0",
+		"ip": "latest"
+	},
+
+	"engines": {
+		"node": "6.2.1"
+	},
+
+	"bugs": {
+		"url": "https://github.com/branden-akana/hyperbot/issues"
+	},
+
+	"homepage": "https://github.com/branden-akana/hyperbot#readme"
 }

@@ -20,6 +20,7 @@
 	},
 
 	"dependencies": {
+		"git-rev": "0.2.1",
 		"request": "latest",
 		"express": "latest",
 		"body-parser": "latest",
